@@ -1,3 +1,6 @@
+import GitHubIcon from "./GitHubIcon";
+import LinkedinIcon from "./LinkedinIcon";
+
 export default function Contact({ contact }: { contact: any }) {
   return (
     <section>
@@ -26,22 +29,18 @@ export default function Contact({ contact }: { contact: any }) {
             href={contact.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 flex items-center"
+            className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 flex items-center gap-2"
           >
-            <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-              {/* GitHub SVG icon */}
-            </svg>
-            GitHub
+            <GitHubIcon />
+             GitHub
           </a>
           <a
             href={contact.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center"
+            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
           >
-            <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-              {/* LinkedIn SVG icon */}
-            </svg>
+           <LinkedinIcon />
             LinkedIn
           </a>
         </div>
