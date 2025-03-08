@@ -12,7 +12,7 @@ export const portfolioData = {
       highlights: [
         "Developed a multi-tenant SaaS platform (Channel.org) on a modified Mastodon codebase, including an Admin Dashboard for streamlined management.",
         "Implemented core Admin Dashboard functionalities, including channel creation flow and a 3-tier Role-Based Access Control (RBAC) system for secure organisational management.",
-        "Designed and automated micro-server provisioning using AWS Lambda and Ansible, reducing deployment time by 75%.",
+        "Designed, deployed, and automated micro-server provisioning system using AWS Lambda and Ansible, achieving a 75% reduction in deployment time through infrastructure-as-code collaboration with DevOps.",
         "Architected a high-throughput content filtering pipeline leveraging Elasticsearch and PostgreSQL for efficient content moderation.",
         "Integrated Mastodon API with WebSocket streaming for mobile clients, achieving 92% feature parity with leading Fediverse applications.",
         "Optimised database performance through query tuning and Redis caching, decreasing API latency by 35%."
