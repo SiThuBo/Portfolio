@@ -1,0 +1,55 @@
+<svg width="600" height="450" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="600" height="450" fill="#F5F5F5"/> <!-- Light gray background -->
+
+<!-- Desk -->
+<rect x="0" y="320" width="600" height="5" fill="#444444"/> <!-- Dark gray desk -->
+
+<!-- Chair -->
+<path d="M200 350 Q 250 300, 300 350 L 300 420 Q 250 470, 200 420 Z" fill="#999999"/>  <!-- Gray Chair -->
+<path d="M220 420 L 220 450" stroke="#666666" stroke-width="2"/> <!-- Chair Leg (darker gray)-->
+<path d="M280 420 L 280 450" stroke="#666666" stroke-width="2"/> <!-- Chair Leg (darker gray)-->
+
+
+<!-- Person -->
+<circle cx="250" cy="210" r="30" fill="#CCCCCC"/> <!-- Gray head -->
+<rect x="220" y="240" width="60" height="110" fill="#EEEEEE" rx="10"/> <!-- Light gray shirt-->
+<rect x="230" y="350" width="40" height="70" fill="#555555"/> <!-- Dark Gray pants -->
+<path d="M220 270 L 210 320" stroke="#AAAAAA" stroke-width="10"/> <!-- Gray Arms -->
+<path d="M280 270 L 290 320" stroke="#AAAAAA" stroke-width="10"/>
+
+<rect x="215" y="175" width="70" height="10" rx="3" fill="#AAAAAA"/> <!-- Gray Glasses -->
+
+<!-- Hair -->
+<path d="M250 180 Q 230 150, 260 140 Q 290 150, 270 180 Z" fill="#111111"/> <!-- Black Hair -->
+<path d="M260 140 Q 270 130, 275 145" stroke="#111111" stroke-width="5"/> <!-- Hair detail -->
+
+
+<!-- Laptop -->
+<rect x="300" y="270" width="180" height="100" rx="5" fill="#AAAAAA"/> <!-- Gray Laptop -->
+<rect x="310" y="280" width="160" height="80" fill="#DDDDDD"/> <!-- Light Gray screen -->
+<circle cx="390" cy="275" r="3" fill="#CCCCCC"/>
+
+<!-- Stickers -->
+<circle cx="335" cy="340" r="10" fill="white"/>
+<path d="M335 345 L330 335 L340 335 Z" fill="black"/>
+<rect x="332" y="333" width="6" height="4" fill="black"/>
+<circle cx="445" cy="340" r="10" fill="white" />
+<text x="440" y="345" font-family="Arial" font-size="12" font-weight="bold" fill="black">DJ</text>
+<rect x="445" y="344" width="10" height="3" fill="white"/>
+
+<!-- Books -->
+<rect x="120" y="285" width="25" height="35" fill="#666666"/>  <!-- Gray book -->
+<rect x="120" y="290" width="25" height="5" fill="#333333"/>
+<rect x="145" y="295" width="25" height="25" fill="#888888"/>  <!-- Lighter Gray book -->
+<rect x="145" y="300" width="25" height="5" fill="#555555"/>
+<rect x="170" y="305" width="25" height="15" fill="#AAAAAA"/>  <!-- Even Lighter Gray book-->
+
+<!-- Mug -->
+<rect x="130" y="260" width="30" height="25" rx="5" fill="#333333"/> <!-- Dark gray Mug -->
+
+<!-- Plant -->
+<rect x="455" y="275" width="30" height="45" fill="#333333" />
+<path d="M470 275 C 490 250, 520 260, 540 230 C 560 200, 570 170, 540 150 C 510 130, 480 140, 460 160"  stroke="#666666" stroke-width="10"  stroke-linecap="round"/>
+<path d="M485 255 Q 495 235, 510 245" stroke="#999999" stroke-width="4"  stroke-linecap="round"/>
+<path d="M470 210 C 495 230, 520 210, 540 180" stroke="#777777" stroke-width="10" stroke-linecap="round" />
+</svg>
