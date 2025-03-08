@@ -75,7 +75,7 @@ export const portfolioData = {
     }
   ],
   awards: [
-    "2021: Excellence Award for Technical Leadership (METATEAM MYANMAR)",
+    "2021: Excellence Fresher Award (METATEAM MYANMAR)",
     "2020: First Runner-Up in National Level Project Competition (IMCEITS)"
   ],
   contact: {
