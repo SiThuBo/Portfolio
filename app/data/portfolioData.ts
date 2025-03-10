@@ -2,7 +2,7 @@ export const portfolioData = {
   profile: {
     name: "Sithu Bo",
     title: "Full Stack Web Developer",
-    summary: "Experienced Web Developer with 5+ years expertise in building robust web applications using Ruby on Rails. Proficient in full software development lifecycle management from concept to deployment. Specialised in database optimisation, Elasticsearch integration, and Dockerised application development. Successfully mentored junior developers and led teams to deliver high-quality software solutions.",
+    summary: "Experienced Web Developer with 5+ years expertise in building robust web applications using Ruby on Rails. Proficient in full software development lifecycle management from concept to deployment. Specialized in database optimization, Elasticsearch integration, and Dockerized application development. Successfully mentored junior developers and led teams to deliver high-quality software solutions.",
   },
   experience: [
     {
@@ -11,11 +11,11 @@ export const portfolioData = {
       duration: "November 2023 – Present",
       highlights: [
         "Developed a multi-tenant SaaS platform (Channel.org) on a modified Mastodon codebase, including an Admin Dashboard for streamlined management.",
-        "Implemented core Admin Dashboard functionalities, including channel creation flow and a 3-tier Role-Based Access Control (RBAC) system for secure organisational management.",
+        "Implemented core Admin Dashboard functionalities, including channel creation flow and a 3-tier Role-Based Access Control (RBAC) system for secure organizational management.",
         "Designed, deployed, and automated micro-server provisioning system using AWS Lambda and Ansible, achieving a 75% reduction in deployment time through infrastructure-as-code collaboration with DevOps.",
         "Architected a high-throughput content filtering pipeline leveraging Elasticsearch and PostgreSQL for efficient content moderation.",
         "Integrated Mastodon API with WebSocket streaming for mobile clients, achieving 92% feature parity with leading Fediverse applications.",
-        "Optimised database performance through query tuning and Redis caching, decreasing API latency by 35%."
+        "Optimized database performance through query tuning and Redis caching, decreasing API latency by 35%."
       ],
       technologies: [
         "Ruby on Rails", "ReactJS", "Mastodon API", "AWS Lambda", "Ansible",
@@ -30,7 +30,7 @@ export const portfolioData = {
         "Led 5-member team in developing recruitment platform CMS with RPO integration.",
         "Designed Scrapy-based web scraper that automated 90% of job listing data collection.",
         "Developed custom kitchen solutions ordering system using Laravel and Vue.js, providing a seamless and tailored user experience.",
-        "Developed LP optimisation tool generating dynamic advertising content combinations.",
+        "Developed LP optimization tool generating dynamic advertising content combinations.",
         "Implemented Trailblazer architecture for complex business logic maintainability.",
         "Mentored 5 junior developers through code reviews and pair programming sessions."
       ],
@@ -44,7 +44,7 @@ export const portfolioData = {
         "Maintained legacy Ruby on Rails admin dashboard applications.",
         "Developed Django-based data for automated CSV/Excel data merging and analysis system reducing report generation time by 90%.",
         "Implemented secure authentication system with Role-Based Access Control.",
-        "Optimised database schema leading to 30% improvement in query performance."
+        "Optimized database schema leading to 30% improvement in query performance."
       ],
       technologies: ["Ruby on Rails", "Django", "Python", "MySQL", "Docker"]
     }
